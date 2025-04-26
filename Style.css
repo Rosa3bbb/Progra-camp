@@ -8,11 +8,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 40vh;
 }
 /*computadora*/
 .barras{display: none;}
-.desplegable{background: #D4886A;}
+.desplegable{background: #FF8D2E;}
 ul{ display: flex;
     flex-direction: row;
 }
@@ -33,7 +33,7 @@ nav ul li:hover{
 @media (max-width: 850px){
 
 .barras{
-    background-color: #D4886A ;
+    background-color: #FF8D2E ;
     display: block;
 }
 .desplegable{
@@ -58,8 +58,8 @@ a{
     text-align: left;
 }
 .boton_menu{
-    background-image: url('menu.png');
-    background-color: #D4886A;
+    background-image: url('ham.png');
+    background-color: #FF8D2E;
     background-repeat: no-repeat;
     height: 30px;
     width: 30px;
@@ -81,8 +81,8 @@ button{
 }
 /*con esta clase cambio las barras por una x*/
 .colocar_x{
-    background-image: url('x.png');
-    background-color: #D4886A;
+    background-image: url('x.svg');
+    background-color: #FF8D2E;
     background-repeat: no-repeat;
     height: 30px;
     width: 30px;
@@ -96,8 +96,4 @@ button{
         height: 100vh;
         font-size: 1.6rem;
     }
-}   
 
-    menu.classList.toggle('abrir_menu');
-    boton.classList.toggle('colocar_x');
-}
