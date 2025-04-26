@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pollo Campero - Productos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: white;
+    }
+    header {
+      background-color: #e63946;
+      padding: 20px;
+      text-align: center;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .producto {
+      background-color: #1a1a1a;
+      padding: 20px;
+   
+      text-align: center;
+      border: 2px solid #f1a208;
+    }
+    .producto img {
+      width: 100%;
+     
+      margin-bottom: 15px;
+    }
+    .producto h3 {
+      margin: 10px 0;
+      font-size: 22px;
+      color: #f1a208;
+    }
+    .producto p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Pollo Campero - Productos</h2>
+  </header>
+
+  <section class="productos">
+    <div class="producto">
+      <img src="pro1.png" alt="Pollo Tradicional">
+      <h3>Pollo Tradicional</h3>
+      <p>Crujiente por fuera, jugoso por dentro. Nuestro clásico más amado.</p>
+    </div>
+    <div class="producto">
+      <img src="pro2.jpg" alt="Camperitos">
+      <h3>Camperitos</h3>
+      <p>Bocados de pollo perfectos para compartir... ¡o no!</p>
+    </div>
+  </section>
+
+</body>
+</html>
