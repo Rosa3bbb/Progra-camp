@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pollo Campero - Galería</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: white;
+    }
+    header {
+      background-color: #e63946;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .gallery img {
+      width: 100%;
+      
+      border: 2px solid #f1a208;
+      transition: transform 0.3s ease;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Galeria</h2>
+  </header>
+
+  <section class="gallery">
+    <img src="gal1.png" alt="Pollo Frito">
+    <img src="gal2.png" alt="Comida Casera">
+    <img src="gal3.jpg" alt="Ambiente Familiar">
+    <img src="gal4.jpg" alt="Bebidas Refrescantes">
+  </section>
+
+</body>
+</html>
