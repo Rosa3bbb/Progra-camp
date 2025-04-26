@@ -1,7 +1,7 @@
-function abrir_cerrar_menu() {
-    const menu = document.getElementById('menu');
-    const boton = document.getElementById('x');
+let menu_desplegable = document.getElementById('menu');
+let boton_cerrar = document.getElementById('x');
 
-    menu.classList.toggle('abrir_menu');
-    boton.classList.toggle('colocar_x');
+function abrir_cerrar_menu(){
+    menu_desplegable.classList.toggle('abrir_menu');
+    boton_cerrar.classList.toggle('colocar_x');
 }
