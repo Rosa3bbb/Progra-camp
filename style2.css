@@ -57,7 +57,7 @@ a{
     text-align: left;
 }
 .boton_menu{
-    background-image: url('menu.png');
+    background-image: url('ham.png');
     background-color: #FF8D2E;
     background-repeat: no-repeat;
     height: 30px;
@@ -80,7 +80,7 @@ button{
 }
 /*con esta clase cambio las barras por una x*/
 .colocar_x{
-    background-image: url('x.png');
+    background-image: url('x.svg');
     background-color: #FF8D2E;
     background-repeat: no-repeat;
     height: 30px;
